@@ -1,0 +1,77 @@
+@keyframes animation{
+    0%{opacity: 1;}
+    50%{opacity: 0.25;}
+    100%{opacity: 1;}
+}
+@keyframes animation2{
+    from{background: linear-gradient(to right, #FF4F58FF 0%, #FF4F58FF 50%, #F0F6F7FF 50%, #F0F6F7FF 100%);}
+    to{background: linear-gradient(to right, #F0F6F7FF 0%, #F0F6F7FF 50%, #669DB3FF 50%, #669DB3FF 100%);}
+}
+html{
+    background: #F0F6F7FF;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+#cont{
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+#cont div{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #A89C94FF;
+}
+#moves{
+    position: fixed;
+    left: 75%;
+    top: 5%;
+}
+#moves p{
+    font-size: 40px;
+    color: #A89C94FF;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#red{
+    position: fixed;
+    left: 72%;
+    top: 20%;
+}
+#blue{
+    position: fixed;
+    left: 85%;
+    top: 20%;
+}
+#reds{
+    font-size: 60px;
+    color: #FF4F58FF;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
+#blues{
+    font-size: 60px;
+    color: #669DB3FF;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
+#redb{
+    font-size: 60px;
+    color: #F0F6F7FF;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#blueb{
+    font-size: 60px;
+    color: #669DB3FF;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#bg{
+    position: fixed;
+    width: 400px;
+    height: 100px;
+    top: 26%;
+    left: 69%;
+    background: linear-gradient(to right, #FF4F58FF 0%, #FF4F58FF 50%, #F0F6F7FF 50%, #F0F6F7FF 100%);
+    animation: animation2 0.1s backwards;
+}
